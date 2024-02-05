@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"dbGen":"drizzle-kit generate:sqlite --config=./db/config.ts",
+		"dbPush":"drizzle-kit push:sqlite --config=./db/config.ts",
+		"dbStudio":"drizzle-kit studio --config=./db/config.ts"
+	},
+	"dependencies": {
+		"better-sqlite3": "^9.2.2",
+		"drizzle-orm": "^0.29.2"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.20.9"
+	},
+	"type": "module"
+}
